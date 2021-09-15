@@ -8,15 +8,22 @@ package com.mycompany.week3;
 
 public class NewClass {
             
-    int getSum(int a, int b){
-        return a+b;
+    //Lab 
+    int getStrLngth(String word){
+        
+        int x = word.length();
+        
+        return x;
     }
         
     public static void main(String[] args) {
         NewClass nc = new NewClass();
-        int x=10, y=100;
-        int z = nc.getSum(x,y);
-        System.out.println("The Sum is "+z);
+        String word= "Hello";
+        
+        
+        
+        int z = nc.getStrLngth(word);
+        System.out.println("Word is: "+z);
         
         
         
